@@ -4,7 +4,7 @@
   <server>
     <id>collected-collected-release</id>
     <username>aws</username>
-    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+    <password>aaaaaa</password>
   </server>
 </servers>
 </settings>
