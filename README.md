@@ -8,3 +8,11 @@ This module contains articles about deployment of a Spring Boot Application
  - [Comparing Embedded Servlet Containers in Spring Boot](https://www.baeldung.com/spring-boot-servlet-containers)
  - [Graceful Shutdown of a Spring Boot Application](https://www.baeldung.com/spring-boot-graceful-shutdown)
  - [Spring Shutdown Callbacks](https://www.baeldung.com/spring-shutdown-callbacks)
+
+
+#####################################
+https://github.com/eugenp/tutorials/tree/master/spring-boot-modules/spring-boot-deployment
+
+
+https://medium.com/codelogicx/cloudformation-template-for-aws-codedeploy-with-autoscaling-c0cea985fe61
+
