@@ -1,3 +1,3 @@
 #!/bin/bash
-apt-get install nginx -y
+apt-get install tomcat -y
 rm -f /var/www/index.html

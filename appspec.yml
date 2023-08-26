@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: index.html
-    destination: /var/www/html
+  - source: target/*.war
+    destination: /etc/tomcat/webapps
 file_exists_behavior: OVERWRITE
 hooks:
   ApplicationStop:
