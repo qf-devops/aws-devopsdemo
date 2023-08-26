@@ -5,8 +5,8 @@ phases:
     commands:
       - export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain collected --domain-owner 675467602881 --region us-east-2 --query authorizationToken --output text`
       - echo Build started on `date`
-      - sed -i 's/aaaaaa/${CODEARTIFACT_AUTH_TOKEN}'/g settings.xml
-      - mvn -s settings.xml clean deploy
+      #- sed -i 's/aaaaaa/${CODEARTIFACT_AUTH_TOKEN}'/g settings.xml
+      - mvn -s settings.xml clean install
   post_build:
     commands:
       - echo Build completed on `date`
